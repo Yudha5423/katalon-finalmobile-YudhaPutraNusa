@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>LoginData</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>38d4ebab-9a15-47e1-826e-2615eb2d7031</dataFileGUID>
+   <dataSourceUrl>C:\Users\Admin\Downloads\LoginDataMobile.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>LoginData</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -1,0 +1,534 @@
+[38;5;112m[Appium][0m Welcome to Appium v3.1.2
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m55789[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:55789/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.1.6:55789/wd/hub
+	http://127.0.0.1:55789/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@6.7.9 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 110[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 110[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Admin\\Downloads\\Advantage+demo+3.2.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 16)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"16","appium:systemPort":55812,"appium:udid":"emulator-5554","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\Admin\\Downloads\\Advantage+demo+3.2.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 16)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"16","appium:systemPort":55812,"appium:udid":"emulator-5554"}}[39m
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\Admin\.appium\node_modules\appium-uiautomator2-driver
+[38;5;84m[AppiumDriver@2be1][0m Appium v3.1.2 creating new AndroidUiautomator2Driver (v6.7.9) session
+[38;5;84m[AppiumDriver@2be1][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;84m[AppiumDriver@2be1][0m Appium's BaseDriver version is 10.1.2
+[38;5;84m[AppiumDriver@2be1][0m AndroidUiautomator2Driver's BaseDriver version is 10.1.2
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Session created with session id: dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m Found 4 'build-tools' folders under 'C:\Users\Admin\AppData\Local\Android\Sdk' (newest first):
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m     C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\36.1.0
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m     C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\34.0.0
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m     C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\33.0.2
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m     C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\30.0.3
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Retrieving device list
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Using device: emulator-5554
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;104m[dfa9623e][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\Admin\Downloads\Advantage+demo+3.2.apk'
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Relaxing hidden api policy
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\36.1.0\aapt2.exe'
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m Package name: 'com.Advantage.aShopping'
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m Main activity name: 'com.Advantage.aShopping.SplashActivity'
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from 'C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\36.1.0\lib\apksigner.jar'
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Server packages are not going to be (re)installed
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m 'C:\Users\Admin\Downloads\Advantage+demo+3.2.apk' is signed with a non-default certificate
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m The application at 'C:\Users\Admin\Downloads\Advantage+demo+3.2.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;104m[dfa9623e][0m[38;5;229m[ADB][0m The installation of 'Advantage+demo+3.2.apk' took 415ms
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Starting UIAutomator2 server 9.9.1
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Using UIAutomator2 server from 'C:\Users\Admin\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v9.9.1.apk' and test from 'C:\Users\Admin\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m socket hang up
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m socket hang up
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m socket hang up
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m socket hang up
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Determined the downstream protocol as 'W3C'
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Screen already unlocked, doing nothing
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Starting 'com.Advantage.aShopping/com.Advantage.aShopping.SplashActivity' and waiting for 'com.Advantage.aShopping/com.Advantage.aShopping.SplashActivity'
+[38;5;104m[dfa9623e][0m[38;5;84m[AppiumDriver@2be1][0m New AndroidUiautomator2Driver session created successfully, session dfa9623e-fc62-4beb-9676-144380770c83 added to master session list
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m9368 ms - 1284[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /status [39m[33m404[39m [90m17 ms - 3088[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m7 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m731 ms - 9517[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m2117 ms - 2934140[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m3 ms - 46[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m676 ms - 139[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-010f-ffff-ffff00000007/click[39m [90m{"id":"00000000-0000-010f-ffff-ffff00000007"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-010f-ffff-ffff00000007/click [39m[32m200[39m [90m124 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m42 ms - 9517[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m1732 ms - 2934140[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 46[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m79 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m63 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m80 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m97 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m58 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m60 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m79 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m79 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m67 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m81 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m112 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m81 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m60 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m95 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m78 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m61 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m89 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m75 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m65 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m79 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m69 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m56 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m75 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m91 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m72 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m78 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m69 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m64 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m53 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m68 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m82 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m76 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m71 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m70 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m58 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m74 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m73 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m39 ms - 8139[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m1401 ms - 1882748[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 46[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.Button' and (@text = 'OK' or . = 'OK') and @resource-id = 'android:id/button1']","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m66 ms - 139[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0111-ffff-ffff00000023/click[39m [90m{"id":"00000000-0000-0111-ffff-ffff00000023"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0111-ffff-ffff00000023/click [39m[32m200[39m [90m96 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m4190 ms - 9517[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m536 ms - 95808[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 46[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m104 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m110 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m106 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m88 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m81 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m80 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m87 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m90 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m94 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m75 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m60 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m60 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m88 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m57 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m102 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m97 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m76 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m69 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m73 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m64 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m75 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m76 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m76 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m81 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m47 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m63 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m90 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m3 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m118 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m77 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m79 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m79 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m85 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m77 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m71 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSplash' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m70 ms - 12[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m53 ms - 19425[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m519 ms - 92624[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 46[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.Button' and (@text = 'APPLY' or . = 'APPLY') and @resource-id = 'com.Advantage.aShopping:id/buttonConnect']","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m71 ms - 139[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff00000042/click[39m [90m{"id":"00000000-0000-0112-ffff-ffff00000042"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff00000042/click [39m[32m200[39m [90m87 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m554 ms - 8880[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m520 ms - 114836[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 46[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.Button' and (@text = 'OK' or . = 'OK') and @resource-id = 'android:id/button1']","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m50 ms - 139[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0114-ffff-ffff0000009d/click[39m [90m{"id":"00000000-0000-0114-ffff-ffff0000009d"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0114-ffff-ffff0000009d/click [39m[32m200[39m [90m94 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m307 ms - 24799[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m1618 ms - 2311684[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 46[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.EditText' and (@text = 'Search' or . = 'Search') and @resource-id = 'com.Advantage.aShopping:id/editTextSearch']","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m101 ms - 139[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000a6/clear[39m [90m{"id":"00000000-0000-0112-ffff-ffff000000a6"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000a6/clear [39m[32m200[39m [90m61 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000a6/click[39m [90m{"id":"00000000-0000-0112-ffff-ffff000000a6"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000a6/click [39m[32m200[39m [90m578 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000a6/value[39m [90m{"value":["T","a","b","l","e","t","s"],"text":"Tablets","id":"00000000-0000-0112-ffff-ffff000000a6"}[39m
+[38;5;104m[dfa9623e][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: value
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000a6/value [39m[32m200[39m [90m2152 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m187 ms - 24107[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m1469 ms - 2317524[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 46[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSearch' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m88 ms - 139[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000a7/click[39m [90m{"id":"00000000-0000-0112-ffff-ffff000000a7"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000a7/click [39m[32m200[39m [90m1039 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m45 ms - 15110[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m589 ms - 65276[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/execute/sync[39m [90m{"args":[{"keycode":4}],"script":"mobile: pressKey"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/execute/sync [39m[32m200[39m [90m117 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m83 ms - 24799[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m1335 ms - 2311660[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 46[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.EditText' and (@text = 'Search' or . = 'Search') and @resource-id = 'com.Advantage.aShopping:id/editTextSearch']","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m81 ms - 139[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000c3/clear[39m [90m{"id":"00000000-0000-0112-ffff-ffff000000c3"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000c3/clear [39m[32m200[39m [90m30 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000c3/click[39m [90m{"id":"00000000-0000-0112-ffff-ffff000000c3"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000c3/click [39m[32m200[39m [90m1878 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000c3/value[39m [90m{"value":["t","a","b","l","e","t"],"text":"tablet","id":"00000000-0000-0112-ffff-ffff000000c3"}[39m
+[38;5;104m[dfa9623e][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: value
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000c3/value [39m[32m200[39m [90m772 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m180 ms - 24106[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m1334 ms - 2315852[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 46[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":0}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements[39m [90m{"value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.Advantage.aShopping:id/imageViewSearch' and (@text = '' or . = '')]","using":"xpath"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/elements [39m[32m200[39m [90m115 ms - 139[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000c4/click[39m [90m{"id":"00000000-0000-0112-ffff-ffff000000c4"}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/element/00000000-0000-0112-ffff-ffff000000c4/click [39m[32m200[39m [90m124 ms - 14[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m628 ms - 24303[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m677 ms - 507532[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Replacing sessionId 84b5bf95-7068-4e5c-83d9-68c7ad734666 with dfa9623e-fc62-4beb-9676-144380770c83
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/source [39m[32m200[39m [90m69 ms - 24303[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83/screenshot [39m[32m200[39m [90m540 ms - 507500[39m [90m[39m
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83[39m [90m{}[39m
+[38;5;104m[dfa9623e][0m[38;5;84m[AppiumDriver@2be1][0m Removing session dfa9623e-fc62-4beb-9676-144380770c83 from our master session list
+[38;5;104m[dfa9623e][0m[38;5;-135m[AndroidUiautomator2Driver@8905][0m Restoring hidden api policy to the device default configuration
+[38;5;104m[dfa9623e][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/dfa9623e-fc62-4beb-9676-144380770c83 [39m[32m200[39m [90m514 ms - 14[39m [90m[39m

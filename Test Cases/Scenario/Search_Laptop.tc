@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search_Laptop</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4fa10be5-ed6c-4a57-a3f7-923aad57d5e0</testCaseGuid>
+</TestCaseEntity>
